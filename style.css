@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 14px;
+  align-items: center;
+
+  h1 {
+    color: #161c2d;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  button {
+    width: 247px;
+    height: 50px;
+    background-color: #473bf0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+
+  a {
+    color: #161c2d;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+
+.main_box {
+  text-align: center;
+  padding: 124px 0px;
+
+  h3 {
+    color: #f64b4b;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.72px;
+    padding-top: 50px;
+  }
+
+  h1 {
+    color: #161c2d;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    padding: 28px 0px;
+  }
+
+  p {
+    color: #161c2d;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    opacity: 70%;
+    width: 636px;
+    margin: 0 auto;
+  }
+
+  button {
+    width: 247px;
+    height: 50px;
+    background-color: #473bf0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 30px auto;
+  }
+
+  a {
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 15.72px;
+    color: #161c2d;
+    letter-spacing: 1.63px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
